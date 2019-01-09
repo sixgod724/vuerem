@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*清除样式*/
+
+* {
+	-webkit-overflow-scrolling: touch;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+em,
+strong {
+	font-style: normal;
+}
+
+a,
+abbr,
+address,
+b,
+blockquote,
+body,
+caption,
+cite,
+code,
+dd,
+del,
+dfn,
+div,
+dl,
+dt,
+em,
+fieldset,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+html,
+i,
+iframe,
+img,
+ins,
+kbd,
+label,
+legend,
+li,
+object,
+ol,
+p,
+pre,
+q,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr,
+ul,
+var {
+	border: 0 none;
+	font-size: .28rem;
+	color: inherit;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	max-height: 1000rem;
+}
+
+body {
+	font-family: PingFangSC-Regular,'Helvetica Neue','Hiragino Sans GB',"Microsoft YaHei",Helvetica,"\5B8B\4F53",sans-serif;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f2f2f2;
+	font-size: .24rem;
+}
+
+
+a,
+a:focus,
+a:hover,
+a:link {
+	text-decoration: none;
+}
+
+.box {
+	max-width: 10rem;
+	margin: 0 auto;
+}
